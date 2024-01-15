@@ -10,6 +10,10 @@
     </parent>
 
     <artifactId>order-service</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>order-domain/order-domain-core</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
